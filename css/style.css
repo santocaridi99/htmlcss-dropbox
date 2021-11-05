@@ -12,7 +12,7 @@ body{
     line-height: 60px;
 }
 
-row::after{
+.row::after{
     content: "";
     display: table;
     clear: both;
@@ -29,6 +29,25 @@ row::after{
 .list{
     list-style: none;
 }
+.jumbotron{
+    background-color: #0091ef6b;
+    height: 600px;
+}
+.button-classic{
+    background-color: #006bff;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
+
+.container-jumbotron{
+    width: 1200px;
+    height: 800px;
+    margin:0 auto;
+    padding-top:50px;
+    
+}
+
 /* --------------------------------------------- */
 .logo{
     margin-top: 15px;
@@ -49,11 +68,56 @@ row::after{
     margin-top: 13px;
     margin-right:60px;
     margin-left: 40px;
-    background-color: #006bff;
-    color: white;
-    padding: 8px 20px;
-    border: none;
 }
+.text-box{
+    margin-bottom: 50px;
+}
+
+.text-box>h1{
+    font-size: 59px;
+}
+
+.description{
+    text-align:left;
+    width: 360px;
+}
+
+.freetrial>button{
+    margin-top:25px;
+}
+
+.annulla{
+    margin-top: 10px;
+}
+
+.arrow{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.jumbo{
+    width:63%;
+}
+
+.jumbo>img{
+    width:100%;
+}
+
+/* --fine pagina 1 */
+
+.ceo-h1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
 
 
 
