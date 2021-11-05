@@ -105,11 +105,42 @@ body{
 
 /* --fine pagina 1 */
 
+
 .ceo-h1{
     text-align: center;
     margin-top: 250px;
     font-size: 45px;
 }
+
+.container{
+    width: 1000px;
+    margin:0 auto;
+    
+}
+
+.radio-button {
+    margin-top: 50px;
+}
+
+.radio-button label{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.colonna{
+    margin-top:60px;
+    height: 200px;
+    margin-left:40px;
+    width: calc(1000px / 3 - 40px);
+    border:1px solid lightgray;
+    
+}
+
+.box-image{
+    height:40px;
+    border-bottom: 1px solid lightgray;
+}
+
 
 
 
