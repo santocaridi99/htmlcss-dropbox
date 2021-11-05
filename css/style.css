@@ -102,6 +102,9 @@ body{
 .jumbo>img{
     width:100%;
 }
+.greywords{
+    color:lightgray;
+}
 
 /* --fine pagina 1 */
 
@@ -109,7 +112,7 @@ body{
 .ceo-h1{
     text-align: center;
     margin-top: 250px;
-    font-size: 45px;
+    margin-right: 200px;
 }
 
 .container{
@@ -120,6 +123,7 @@ body{
 
 .radio-button {
     margin-top: 50px;
+    margin-left: 40px;
 }
 
 .radio-button label{
@@ -129,17 +133,113 @@ body{
 
 .colonna{
     margin-top:60px;
-    height: 200px;
     margin-left:40px;
     width: calc(1000px / 3 - 40px);
     border:1px solid lightgray;
+    
     
 }
 
 .box-image{
     height:40px;
+    line-height: 40px;
     border-bottom: 1px solid lightgray;
+    text-align: center;
 }
+
+
+.box-intero{
+    width:100%;
+    padding:20px 20px ;
+}
+
+.spazio-archiviazione{
+    font-size: 15px;
+}
+.fa-pen>span{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.continuo-testo{
+    font-size:15px;
+}
+
+
+.utente::before{
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.archivio::before{
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.condivisione::before{
+    content: "\f304";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 5px;
+
+}
+
+.bordo{
+    height:30px;
+    width:60px;
+    border-bottom:1px solid lightgray;
+    margin-bottom: 40px;
+}
+
+
+
+.check>li::before{
+    content: "\f00c";
+    color: #0063ff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.check>li{
+    margin-top: 20px;
+}
+.check{
+    margin-bottom:100px;
+}
+
+.uno>h2{
+    margin-bottom:20px;
+}
+.uno>h4{
+    margin-bottom:10px;
+    
+}
+
+
+.icone{
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.icone>p{
+    margin-top:20px;
+}
+
+.compra{
+    margin-top:20px;
+}
+
+
+
+
+
+
+
 
 
 
