@@ -104,6 +104,7 @@ body{
 }
 .greywords{
     color:lightgray;
+    font-size: 14px;
 }
 
 /* --fine pagina 1 */
@@ -136,6 +137,7 @@ body{
     margin-left:40px;
     width: calc(1000px / 3 - 40px);
     border:1px solid lightgray;
+    height: 980px;
     
     
 }
@@ -156,20 +158,18 @@ body{
 .spazio-archiviazione{
     font-size: 15px;
 }
-.fa-pen>span{
-    font-weight: normal;
-    margin-left: 10px;
-}
-
-.continuo-testo{
-    font-size:15px;
-}
 
 
 .utente::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
+    padding-right: 5px;
+}
+.utenteb::before{
+    content:"\f234";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     padding-right: 5px;
 }
 
@@ -184,6 +184,14 @@ body{
     content: "\f304";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    padding-right: 5px;
+
+}
+
+.smile::before{
+    content: "\f118";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
     padding-right: 5px;
 
 }
@@ -207,9 +215,6 @@ body{
 
 .check>li{
     margin-top: 20px;
-}
-.check{
-    margin-bottom:100px;
 }
 
 .uno>h2{
