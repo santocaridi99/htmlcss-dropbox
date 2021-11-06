@@ -248,13 +248,13 @@ body{
 /* -----fine colonne----- */
 
 
-
-
-
+.centralcontainer{
+    width: 960px;
+    margin-left: 298px;
+}
 
 .team{
-    width:960px;
-    margin-left: 40px;
+    width:100%;
     height: 50px;
     border:1px solid lightgray ;
     margin-top: 100px;
@@ -264,8 +264,7 @@ body{
     
 }
 .box-ufficiovendite{
-    width:960px;
-    margin-left:40px;
+    width:100%;
     border:1px solid lightgray;
     padding:10px 30px;
     
@@ -292,6 +291,34 @@ body{
     margin-top: 20px;
     
 }
+
+.sezione2{
+    margin-top:200px;
+}
+
+.partner{
+    width:50%;
+
+}
+.box-partner{
+    width: 50%;
+    padding:30px 40px;
+}
+
+.box-partner>p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.button-white{
+    border:1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+
+
 
 
 
