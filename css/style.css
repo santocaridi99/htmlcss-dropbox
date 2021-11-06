@@ -48,6 +48,8 @@ body{
     
 }
 
+
+
 /* --------------------------------------------- */
 .logo{
     margin-top: 15px;
@@ -115,7 +117,7 @@ body{
     margin-top: 250px;
     margin-right: 200px;
 }
-
+/* ----inizio colonne---- */
 .container{
     width: 1000px;
     margin:0 auto;
@@ -131,6 +133,8 @@ body{
     display: inline-block;
     padding-right: 20px;
 }
+
+
 
 .colonna{
     margin-top:60px;
@@ -238,6 +242,64 @@ body{
 .compra{
     margin-top:20px;
 }
+.bcolonne{
+    padding:10px 50px
+}
+/* -----fine colonne----- */
+
+
+
+
+
+
+.team{
+    width:960px;
+    margin-left: 40px;
+    height: 50px;
+    border:1px solid lightgray ;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 60px;
+  
+    
+}
+.box-ufficiovendite{
+    width:960px;
+    margin-left:40px;
+    border:1px solid lightgray;
+    padding:10px 30px;
+    
+}
+
+.team>i{
+    text-align: center;
+}
+.Enterprise{
+    width:70%;
+}
+.Enterprise>h2{
+    margin-bottom: 20px;
+}
+.Enterprise>h4{
+    margin-bottom: 40px;
+}
+.Enterprise>p{
+    margin-bottom: 20px;
+}
+
+.grande{
+    padding: 12px 60px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
 
 
 
