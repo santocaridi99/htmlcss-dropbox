@@ -339,7 +339,7 @@ body{
 }
 .sezione3>h1{
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .card{
@@ -371,6 +371,48 @@ body{
 .testoclienti{
     margin-bottom: 50px;
 }
+
+.clienti-container{
+    margin-top: 80px;
+}
+
+.clienti1,.clienti2{
+    width:30%;
+    height:600px;
+    background-color: cornflowerblue;
+    
+}
+.citazione{
+    width:40%;
+    height:600px;
+    background-color: lightgray;
+}
+
+.cliente{
+    width:calc(100% / 2);
+    height:300px;
+    border:1px solid black;
+    position: relative;
+}
+
+.cliente>img{
+    position: absolute;
+    width: 70%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+.l1{
+    padding: 5px;
+    background-color: limegreen;
+    border:10px solid lightgreen;
+
+}
+
+
+
 
 
 
