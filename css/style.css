@@ -250,6 +250,8 @@ body{
 
 .icone>p{
     margin-top:20px;
+    font-size: 15px;
+    text-align: left;
 }
 
 .compra{
@@ -339,6 +341,7 @@ body{
 }
 .sezione3>h1{
     margin-bottom: 30px;
+    margin-left: 40px;
 }
 
 .card{
@@ -353,7 +356,7 @@ body{
 
 .card>p{
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #dropboxpaper{
