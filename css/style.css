@@ -121,9 +121,7 @@ body{
 /* ----inizio colonne---- */
 .container{
     width: 1000px;
-    margin:0 auto;
-  
-    
+    margin:0 auto; 
 }
 .container-scelta{
     margin-top: 200px;
@@ -262,10 +260,7 @@ body{
 }
 /* -----fine colonne----- */
 
-
-.centralcontainer{
-    margin-top: 100px;
-    width:calc(1000px / 1 - 20px) ;
+.sezione1{
     padding-left: 50px;
 }
 
@@ -275,6 +270,7 @@ body{
     border:1px solid lightgray ;
     text-align: center;
     line-height: 60px;
+    margin-top: 100px;
   
     
 }
@@ -309,9 +305,11 @@ body{
     
     
 }
+/* ---inizio sezione 2--- */
 
 .sezione2{
     margin-top:150px;
+    padding-left: 50px;
 }
 
 .partner{
@@ -334,14 +332,15 @@ body{
     padding: 10px 20px;
     font-size: 15px;
 }
+/* ---sezione3---- */
 
 .sezione3{
-    width: 100%;
-    margin-top: 100px;
+    margin-top: 200px;
+
 }
 .sezione3>h1{
     margin-bottom: 30px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .card{
@@ -362,6 +361,18 @@ body{
 #dropboxpaper{
     text-decoration:underline ;
 }
+
+/* ----sezione4---- */
+.sezione4{
+    margin-top: 100px;
+    padding-left: 40px;
+}
+
+
+.testoclienti{
+    margin-bottom: 50px;
+}
+
 
 
 
