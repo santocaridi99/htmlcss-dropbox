@@ -268,7 +268,7 @@ body{
     height: 50px;
     border:1px solid lightgray ;
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
     margin-top: 100px;
   
     
@@ -378,26 +378,23 @@ body{
 
 .clienti1,.clienti2{
     width:30%;
-    height:600px;
-    background-color: cornflowerblue;
-    
 }
+
 .citazione{
     width:40%;
-    height:600px;
-    background-color: lightgray;
+    height:400px;
+    background-color: #e6e5e5;
 }
 
 .cliente{
     width:calc(100% / 2);
-    height:300px;
-    border:1px solid black;
+    height:200px;
     position: relative;
 }
 
 .cliente>img{
     position: absolute;
-    width: 70%;
+    width: 60%;
     top:50%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -405,11 +402,40 @@ body{
 }
 
 .l1{
-    padding: 5px;
-    background-color: limegreen;
+    
+    background-color: #9ed68e;
     border:10px solid lightgreen;
 
 }
+
+.l2{
+    background-color: rgb(114, 13, 34,1);
+  
+}
+
+.l3{
+    background-color: rgb(37, 166, 218);
+}
+
+.l4{
+    background-color: red;
+}
+
+.contenitore-citazione{
+    padding:50px 30px;
+}
+
+
+.contenitore-citazione>img{
+width:20%;
+}
+
+.contenitore-citazione>p{
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+
 
 
 
