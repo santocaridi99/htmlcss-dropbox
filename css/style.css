@@ -150,10 +150,9 @@ body{
 
 .colonna{
     margin-left:40px ;
-    width: calc(1000px / 3 - 50px);
+    width: calc(1000px / 3 - 44px);
     border:1px solid lightgray;
     height: 980px;
-    
     
 }
 
