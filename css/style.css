@@ -137,7 +137,6 @@ body{
 
 .container-scelta{
     margin-top: 200px;
-    width: 100%;
     padding-left: 50px;
 }
 
@@ -152,7 +151,6 @@ body{
 }
 
 .contenitore-colonne{
-    width:100%;
     margin-top:40px;
     padding-left: 10px;
    
@@ -177,7 +175,6 @@ body{
 
 
 .box-intero{
-    width:100%;
     padding:20px 20px ;
 }
 
@@ -306,7 +303,6 @@ body{
     
 }
 .box-ufficiovendite{
-    width:100%;
     border:1px solid lightgray;
     padding:24px 20px;
     
@@ -525,12 +521,12 @@ footer{
     padding: 90px 90px;
 }
 
-.uno{
+.one{
     width:20%;
 }
 
 
-.due,.tre,.quattro,.cinque{
+.two,.three,.four,.five{
     width: 20%;
 }
 
