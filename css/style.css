@@ -10,6 +10,7 @@ body{
 .navigazione{
     height:60px;
     line-height: 60px;
+    padding-left: 30px;
 }
 
 .row::after{
@@ -57,9 +58,18 @@ body{
 
 /* --------------------------------------------- */
 .logo{
-    margin-top: 15px;
-    margin-left: 60px;
-    margin-right: 60px;
+   width: 100px;
+  
+}
+.logo>img{
+    vertical-align:text-bottom;
+}
+
+.fl.list{
+    margin-left: 50px;
+}
+.fr.list{
+    margin-right: 50px;
 }
 
 .list>li{
@@ -73,10 +83,12 @@ body{
    
 }
 
-.fr.button-classic{
-    margin-top: 13px;
-    margin-right:60px;
-    margin-left: 40px;
+.login{
+    width: 100px;
+}
+
+.login>.button-classic{
+  vertical-align: middle;
 }
 .text-box{
     margin-bottom: 50px;
