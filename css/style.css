@@ -485,9 +485,34 @@ width:20%;
 }
 
 .container-azzurro{
-    height: 300px;
-    background-color: #0091ef6b; ;
+    height: 250px;
+    background-color: #0091ef6b; 
+    padding: 100px 210px;
 }
+
+.testoazienda>h1{
+    color: rgb(114, 13, 34,1);
+}
+
+.provagratuita{
+    border:none;
+    background-color: white;
+    padding: 12px 60px;
+    font-size: 16px;
+}
+
+/* --sezione 5 domande--- */
+
+.domande{
+    margin-top: 200px;
+}
+
+.linee{
+    color: lightgray;
+    margin: 50px 0;
+}
+
+
 
 
 
