@@ -255,12 +255,33 @@ body{
 .icone{
     margin-top:20px;
     margin-bottom: 50px;
+    position: relative;
+    height: 140px;
+    width: 100%;
 }
 
-.icone>p{
+
+.fontspeciale{
+   position: absolute;
+}
+
+
+
+.font-speciale>p{
     margin-top:20px;
     font-size: 15px;
-    text-align: left;
+
+   
+}
+.testi-icone{
+    position:absolute;
+    right:0;
+    top:-20px;
+    left:24px;
+}
+.testi-icone>p{
+    margin-top:20px;
+    font-size: 15px;
 }
 
 .compra{
