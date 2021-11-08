@@ -47,6 +47,11 @@ body{
     padding-top:50px;
     
 }
+.container{
+    width: 1000px;
+    margin:0 auto;
+  
+}
 
 
 
@@ -63,6 +68,8 @@ body{
 }
 .list>li>a{
     padding: 0 10px;
+    text-decoration: none;
+    color: black;
    
 }
 
@@ -110,19 +117,12 @@ body{
 }
 
 /* --fine pagina 1 */
-.container{
-    width: 1000px;
-    margin:0 auto;
-  
-}
+
 
 
 
 /* ----inizio colonne---- */
-.container{
-    width: 1000px;
-    margin:0 auto; 
-}
+
 .container-scelta{
     margin-top: 200px;
     width: 100%;
