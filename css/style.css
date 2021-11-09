@@ -284,7 +284,7 @@ body{
     margin-top:20px;
 }
 .bcolonne{
-    padding:10px 40px
+    padding:10px 49px
 }
 /* -----fine colonne----- */
 
@@ -415,7 +415,7 @@ body{
 }
 
 .cliente{
-    width:calc(100% / 2);
+    width:50%;
     height:200px;
     position: relative;
 }
@@ -478,7 +478,7 @@ width:20%;
 }
 
 .l8{
-    background-color:yellow;
+    background-color:#dede25;
 }
 
 .container-azzurro{
