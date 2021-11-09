@@ -7,17 +7,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.navigazione{
-    width:100%;
-    height:60px;
-    line-height: 60px;
-    padding-left: 30px;
-    position: fixed;
-    background-color: white;
-    z-index: 1000;
-    border-bottom: 1px solid lightgray;
-}
-
 .row::after{
     content: "";
     display: table;
@@ -63,10 +52,21 @@ body{
 
 
 /* --------------------------------------------- */
+.navigazione{
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    padding-left: 30px;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    border-bottom: 1px solid lightgray;
+}
+
 .logo{
    width: 100px;
-  
 }
+
 .logo>img{
     vertical-align:text-bottom;
 }
@@ -80,13 +80,12 @@ body{
 
 .list>li{
     display: inline-block;
-
 }
+
 .list>li>a{
     padding: 0 20px;
     text-decoration: none;
     color: black;
-   
 }
 
 .login{
