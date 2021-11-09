@@ -131,9 +131,6 @@ body{
 
 /* --fine pagina 1 */
 
-
-
-
 /* ----inizio colonne---- */
 
 .container-scelta{
@@ -157,8 +154,6 @@ body{
    
 }
 
-
-
 .colonna{
     margin-left:40px ;
     width: calc(1000px / 3 - 44px);
@@ -174,7 +169,6 @@ body{
     text-align: center;
 }
 
-
 .box-intero{
     padding:20px 20px ;
 }
@@ -183,13 +177,13 @@ body{
     font-size: 15px;
 }
 
-
 .utente::before{
     content: "\f007";
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     padding-right: 5px;
 }
+
 .utenteb::before{
     content:"\f234";
     font-family: "Font Awesome 5 Free";
@@ -309,24 +303,27 @@ body{
 .team>i{
     text-align: center;
 }
+
 .Enterprise{
-    width:70%;
-    font-size: 14px;
+    width:72%;
 }
+
 .Enterprise>h2{
     margin-bottom: 20px;
 }
 .Enterprise>h4{
     margin-bottom: 40px;
 }
+
 .Enterprise>p{
     margin-bottom: 20px;
+    font-size: 13px;
 }
 
 .grande{
     padding: 10px 15px;
     margin-top: 20px;
-    width:30%;
+    width:28%;
     
     
 }
@@ -393,7 +390,6 @@ body{
     padding-left: 40px;
 }
 
-
 .testoclienti{
     margin-bottom: 50px;
 }
@@ -425,14 +421,11 @@ body{
     left: 50%;
     transform: translate(-50% , -50%);
     filter: invert(1);
-    
 }
 
 .l1{
-    
     background-color: #9ed68e;
     border:10px solid lightgreen;
-
 }
 
 .l2{
@@ -452,7 +445,6 @@ body{
     padding:50px 30px;
 }
 
-
 .contenitore-citazione>img{
 width:20%;
 }
@@ -461,7 +453,6 @@ width:20%;
     margin-bottom: 50px;
     font-size: 15px;
 }
-
 
 .l5{
     background-color: #ce0b0b;
