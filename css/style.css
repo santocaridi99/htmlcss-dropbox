@@ -27,7 +27,7 @@ body{
 
 .jumbotron{
     background-color: #0091ef6b;
-    height: 600px;
+    height: 650px;
 }
 .button-classic{
     background-color: #006bff;
@@ -40,7 +40,7 @@ body{
     width: 1200px;
     height: 800px;
     margin:0 auto;
-    padding-top:50px;
+    padding-top:100px;
     
 }
 .container{
@@ -96,7 +96,7 @@ body{
   vertical-align: middle;
 }
 .text-box{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .text-box>h1{
@@ -112,17 +112,23 @@ body{
     margin-top:25px;
 }
 
+.provablu{
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
 .annulla{
     margin-top: 10px;
+    font-size: 14px;
 }
 
 .arrow{
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .jumbo{
-    width:63%;
+    width:65%;
 }
 
 .jumbo>img{
