@@ -262,14 +262,13 @@ body{
 .font-speciale>p{
     margin-top:20px;
     font-size: 15px;
-
-   
 }
+
 .testi-icone{
     position:absolute;
-    right:0;
     left:24px;
 }
+
 .testi-icone>p{
     margin-top:20px;
     font-size: 15px;
@@ -430,7 +429,6 @@ body{
 
 .l2{
     background-color: rgb(114, 13, 34,1);
-  
 }
 
 .l3{
@@ -515,7 +513,6 @@ footer{
     width:20%;
 }
 
-
 .two,.three,.four,.five{
     width: 20%;
 }
@@ -542,7 +539,7 @@ footer{
 .lingua>.fa-chevron-up{
     font-size: 10px;
 }
-
+/* --fine footer */
 
 
 
