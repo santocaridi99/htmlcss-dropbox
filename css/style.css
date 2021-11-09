@@ -8,9 +8,12 @@ body{
 }
 
 .navigazione{
+    width:100%;
     height:60px;
     line-height: 60px;
     padding-left: 30px;
+    position: fixed;
+    background-color: white;
 }
 
 .row::after{
@@ -504,7 +507,7 @@ footer{
 }
 
 .container-nero{
-    height:600px;
+    height:550px;
     color: white;
     padding: 90px 90px;
 }
